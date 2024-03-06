@@ -15,6 +15,6 @@ public class ReviewAnalyzer {
    	 return count;
     }
     public static void main(String[] args) {
-   	 SpringApplication.run(ReviewAnalyserApplication.class, args);
+   	 SpringApplication.run(ReviewAnalyzer.class, args);
     }
 }

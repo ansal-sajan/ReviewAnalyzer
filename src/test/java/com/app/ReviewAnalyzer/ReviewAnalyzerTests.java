@@ -7,7 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class ReviewAnalyzerTests {
 
-    private ReviewAnalyserApplication analyser = new ReviewAnalyserApplication();
+    private ReviewAnalyzer analyser = new ReviewAnalyzer();
     @Test	 
     public void testWordCount() {     	 
    	 assertEquals(7,analyser.getWordCount("Train to win in the digital economy"));	 
