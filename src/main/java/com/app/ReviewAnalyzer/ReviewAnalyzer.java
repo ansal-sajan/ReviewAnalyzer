@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ReviewAnalyserApplication {
+public class ReviewAnalyser {
     public static double getWordCount(String review){
         	int count = 0;
       	 
